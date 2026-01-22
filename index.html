@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <style type="text/css" media="all">
-    body {
+body {
   font-size: 15pt;
   background-color: #E0E3D7;
 }
@@ -46,9 +46,12 @@
   
   <div class="tela"></div>
   <div class="dialogoBox"></div>
-  <script>
-    
-var cartas = [];
+<script type="text/javascript" charset="utf-8">
+  var cartas = [];
+var questions = [
+  'questao um'
+];
+var respostas = [];
 
 var mvX = 0;
 var mvY = 150;
@@ -70,7 +73,6 @@ cartas[2].style.top = cartas[2].offsetTop + 525 + mvY + 'px';
 
 cartas[3].style.left = cartas[3].offsetLeft + 450 + mvX + 'px';
 cartas[3].style.top = cartas[3].offsetTop + 525 + mvY + 'px';
-    
-  </script>
+</script>
 </body>
 </html>
