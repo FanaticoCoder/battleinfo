@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "font1";
+    src: url("CandyPlanet.ttf") format("woff2"),
+        url("CandyPlanet.ttf") format("woff"),
+        url("CandyPlanet.ttf") format("truetype"),
+}
+@font-face {
+    font-family: "font2";
+    src: url("Starborn.ttf") format("woff2"),
+        url("Starborn.ttf") format("woff"),
+        url("Starborn.ttf") format("truetype"),
+}
+@font-face {
+    font-family: "font3";
+    src: url("ZenithaClassic.otf") format("woff2"),
+        url("ZenithaClassic.otf") format("woff"),
+        url("ZenithaClassic.otf") format("truetype"),
+}
+@font-face {
+    font-family: "font4";
+    src: url("Yourpal.ttf") format("woff2"),
+        url("Yourpal.ttf") format("woff"),
+        url("Yourpal.ttf") format("truetype"),
+}
+body {
+    font-size: 15pt;
+    background-color: #E0E3D7;
+}
+
+.tela {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 970px;
+    height: 484px;
+    border: solid 10px #2D425B;
+}
+
+.carta {
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    width: 300px;
+    height: 450px;
+    background-color: #94A0C6;
+    border: solid 10px #454F6E;
+}
+
+.dialogoBox {
+    position: absolute;
+    left: 50px;
+    top: 520px;
+    height: 150px;
+    width: 870px;
+    background-color: #94A0C6;
+    border: solid 10px #26283C;
+    font-size: 50px;
+    font-family: 'font4';
+}
+
+div {
+    text-align: justify;
+}
+
+.trueOrFalse {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: #25156B;
+    font-size: 30px;
+    font-family: font2;
+}
+
+div {
+    font-family: font2;
+    text-align: justify;
+}
+
+.actionButton {
+    position: absolute;
+    left: 870px;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(87, 89, 114);
+    border: solid 5px #1A1D39;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
