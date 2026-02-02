@@ -105,7 +105,7 @@ for (let i = 0; i < cartas.length; i++) {
           dialoging(respostas[numberQ][j][0], cartas[j], delay);
           delay += respostas[numberQ][j][0].length * 100 + 500;
         }
-      } else { alert('Escolha uma ação \nAtk ou Def') }
+      } else { alert('Escolha uma ação: \nAtaque⚔️ ou Defesa🛡️') }
     }
     for (let i = 0; i < actionButton.length; i++) {
       actionButton[i].style.backgroundColor = 'rgb(87, 89, 114)'
